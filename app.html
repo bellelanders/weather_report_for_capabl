@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="app.css ">
+</head>
+<body>
+    <header class="header">
+        <h1>Weather Forecast</h1>
+        <div>
+            <input id="input" type="text" placeholder="Enter city">
+            <button id="search">Search</button>
+        </div>
+    </header>
+    <main>
+        <section class="weather">
+            <h2 id="city">City Name</h2>
+            <div class="temp-box">
+                <img src="weather-icon.png" alt="Weather Icon">
+                <div id="temperature">72°F</div>
+            </div>
+            <div id="clouds">Cloudy</div>
+        </section>
+        <section class="forecstD">
+            <div class="cast-header">Forecast</div>
+            <div class="weekF">
+                <div class="next">
+                    <div class="divider1"></div>
+                    <div class="divider2"></div>
+                </div>
+                <div>
+                    <h3>Day</h3>
+                    <p class="time">Time</p>
+                    <p class="date">Date</p>
+                    <p class="desc">Description</p>
+                </div>
+                <div>
+                    <h3>Day</h3>
+                    <p class="time">Time</p>
+                    <p class="date">Date</p>
+                    <p class="desc">Description</p>
+                </div>
+                <!-- Add more forecast items as needed -->
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
